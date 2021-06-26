@@ -96,7 +96,6 @@ o67iku3l4lVnyj7/5sNlVuyveVgEOLFMjR3b5jE74SfzQzgJL3g+WOegQJO8HPI0
 q0cUZowTQkcpPeFqB3Ti/FPy
 -----END PRIVATE KEY-----
 </key>
-
 key-direction 1
 <tls-auth>
 #
@@ -121,9 +120,9 @@ d822280da0163045ef19bf9cfb6c0583
 529eeca11f059cede3bc3a7985f4df87
 -----END OpenVPN Static key V1-----
 </tls-auth>"},
-     
-     "ovpn_file":[
-    {"id":1,"file":"setenv FORWARD_COMPATIBLE 1
+  "ovpn_file":[
+    {"id":1,"file":"
+  setenv FORWARD_COMPATIBLE 1
 client
 server-poll-timeout 4
 nobind
@@ -147,7 +146,6 @@ rcvbuf 0
 comp-lzo no
 verb 3
 setenv PUSH_PEER_INFO
-
 <ca>
 -----BEGIN CERTIFICATE-----
 MIICuDCCAaCgAwIBAgIEYNcHoDANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDDApP
@@ -219,7 +217,6 @@ mmYy1/pa3/6ySHZBBM60KgVEdxSXkTxLUGnnDWizWzabZbjThCNWu6jac8GbOrAZ
 Hs9rSsKilwWeAxxts+MNvow=
 -----END PRIVATE KEY-----
 </key>
-
 key-direction 1
 <tls-auth>
 #
