@@ -100,5 +100,10 @@ RyHcvGoEA1rFfwX3uJxMO8Q=
 key-direction 1
 <tls-auth>"},
      
+     "ovpn_file":[
+    {"id":1,"file":"
+     
+     
+    "}, 
     ]
 }
