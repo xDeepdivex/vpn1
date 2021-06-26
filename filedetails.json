@@ -120,6 +120,7 @@ d822280da0163045ef19bf9cfb6c0583
 529eeca11f059cede3bc3a7985f4df87
 -----END OpenVPN Static key V1-----
 </tls-auth>"},
+  {
   "ovpn_file":[
     {"id":1,"file":"
   setenv FORWARD_COMPATIBLE 1
